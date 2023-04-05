@@ -47,37 +47,50 @@ body {
 .headline {
     font-size: 56px;
     line-height: 58px;
+    color: #111;
 }
 
 .subtitle {
     font-size: 20px;
     line-height: 22px;
-    font-weight: 500;
-    color: #303030;
+    font-weight: 400;
+    color: #333;
     padding: 25px;
     padding-left: 0px;
     padding-bottom: 0px;
 }
 
 .author {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 800;
-    color: #303030;
+    color: #555;
     padding: 25px;
     padding-left: 0px;
     padding-bottom: 0px;
 }
 
 .date {
+    color: #555;
     padding: 0;
 }
 .social-icons {
-    padding: 25px;
+    padding: 30px;
     padding-left: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 7px;
 }
 
 .social-icon {
-    
+    width: 25px;
+    margin: 10px 5px 10px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+content {
+    max-width: 640px;
+    margin: auto;
+    padding: 30px;
 }
