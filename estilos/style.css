@@ -89,8 +89,19 @@ a {
     text-decoration: none;
 }
 
-content {
-    max-width: 640px;
+.content {
+    max-width: 720px;
     margin: auto;
     padding: 30px;
+}
+
+p {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+span {
+    color: #fd8a24;
+    font-weight: 800;
 }
